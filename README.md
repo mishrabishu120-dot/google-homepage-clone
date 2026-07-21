@@ -28,13 +28,13 @@ This project demonstrates clean coding practices, semantic HTML5 structure, mode
 
 ## Folder Structure
 
-```text
+```
 google-homepage-clone/
-│
-├── index.html
-├── style.css
-├── README.md
-├── assets/
+
+│── index.html
+│── style.css
+│── README.md
+│── assets/
 │     ├── google-logo.svg
 │     ├── avatar.png
 │     ├── favicon.png
@@ -42,20 +42,30 @@ google-homepage-clone/
 │     ├── mic.svg
 │     ├── lens.svg
 │     └── apps.svg
+│
 └── screenshots/
       ├── desktop.png
       └── mobile.png
+```
 
-      
-  Screenshots
-Desktop View	Mobile View
-Desktop Screenshot	Mobile Screenshot
-Future Improvements
-Add a CSS-only dark theme toggle option using :checked state on a hidden checkbox.
-Include CSS-only popup modal simulation for the 9-dots Google Apps drawer.
-Add keyframe micro-animations for voice search microphone listening state.
-Author
-[Your Name Here] (KodBud Frontend Engineer Intern)
+---
 
-### To fix the broken screenshot links:
-Make sure you upload the **`screenshots` folder** along with `index.html` and `style.css` to your GitHub repository. The `README.md` looks inside the `screenshots/` directory, so that folder must exist in your GitHub repository alongside the README file!
+## Screenshots
+
+| Desktop View | Mobile View |
+| :---: | :---: |
+| ![Desktop Screenshot](screenshots/desktop.png) | ![Mobile Screenshot](screenshots/mobile.png) |
+
+---
+
+## Future Improvements
+
+* Add a CSS-only dark theme toggle option using `:checked` state on a hidden checkbox.
+* Include CSS-only popup modal simulation for the 9-dots Google Apps drawer.
+* Add keyframe micro-animations for voice search microphone listening state.
+
+---
+
+## Author
+
+* **[Your Name Here]** (KodBud Frontend Engineer Intern)
