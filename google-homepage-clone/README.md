@@ -68,4 +68,4 @@ google-homepage-clone/
 
 ## Author
 
-* **[Your Name Here]** (KodBud Frontend Engineer Intern)
+* **Saumy Mishra** (KodBud Frontend Engineering Intern)
