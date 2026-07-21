@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking for.">
+  <title>Google</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <!-- Google Fonts: Roboto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==================== HEADER SECTION ==================== -->
+  <header class="header">
+    <nav class="nav-right" aria-label="Quick links">
+      <a href="https://mail.google.com" class="nav-link" aria-label="Gmail">Gmail</a>
+      <a href="https://www.google.com/imghp" class="nav-link" aria-label="Google Images">Images</a>
+      <button type="button" class="icon-button" aria-label="Google apps">
+        <img src="assets/apps.svg" alt="" class="apps-icon" width="24" height="24">
+      </button>
+      <a href="#" class="profile-link" aria-label="Google Account profile">
+        <img src="assets/avatar.png" alt="User Profile Avatar" class="avatar-img" width="32" height="32">
+      </a>
+    </nav>
+  </header>
+
+  <!-- ==================== MAIN CONTENT SECTION ==================== -->
+  <main class="main-content">
+    <div class="search-container">
+      <!-- Google Logo -->
+      <div class="logo-wrapper">
+        <img src="assets/google-logo.svg" alt="Google Logo" class="google-logo" width="272" height="92">
+      </div>
+
+      <!-- Search Form -->
+      <form action="https://www.google.com/search" method="GET" class="search-form" role="search">
+        <div class="search-box">
+          <span class="search-icon-wrapper" aria-hidden="true">
+            <img src="assets/search.svg" alt="" class="search-icon" width="20" height="20">
+          </span>
+          
+          <input 
+            type="text" 
+            name="q" 
+            class="search-input" 
+            aria-label="Search" 
+            autocomplete="off" 
+            autofocus 
+            required
+          >
+
+          <div class="search-tools">
+            <button type="button" class="tool-button" aria-label="Search by voice">
+              <img src="assets/mic.svg" alt="Search by voice" class="tool-icon" width="24" height="24">
+            </button>
+            <button type="button" class="tool-button" aria-label="Search by image">
+              <img src="assets/lens.svg" alt="Search by image" class="tool-icon" width="24" height="24">
+            </button>
+          </div>
+        </div>
+
+        <!-- Search Action Buttons -->
+        <div class="button-group">
+          <button type="submit" class="btn">Google Search</button>
+          <button type="submit" name="btnI" value="1" class="btn">I'm Feeling Lucky</button>
+        </div>
+      </form>
+
+      <!-- Offered Languages Section -->
+      <div class="language-section">
+        <p class="language-text">
+          Google offered in:
+          <a href="#" class="lang-link">हिन्दी</a>
+          <a href="#" class="lang-link">বাংলা</a>
+          <a href="#" class="lang-link">తెలుగు</a>
+          <a href="#" class="lang-link">मराठी</a>
+          <a href="#" class="lang-link">தமிழ்</a>
+          <a href="#" class="lang-link">ગુજરાતી</a>
+          <a href="#" class="lang-link">ಕನ್ನಡ</a>
+          <a href="#" class="lang-link">മലയാളം</a>
+          <a href="#" class="lang-link">ਪੰਜਾਬੀ</a>
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <!-- ==================== FOOTER SECTION ==================== -->
+  <footer class="footer">
+    <!-- Top Footer: Location -->
+    <div class="footer-top">
+      <span class="location-text">India</span>
+    </div>
+
+    <!-- Bottom Footer: Links -->
+    <div class="footer-bottom">
+      <nav class="footer-links footer-left" aria-label="About Google">
+        <a href="#" class="footer-link">About</a>
+        <a href="#" class="footer-link">Advertising</a>
+        <a href="#" class="footer-link">Business</a>
+        <a href="#" class="footer-link">How Search works</a>
+      </nav>
+
+      <nav class="footer-links footer-right" aria-label="Privacy and Terms">
+        <a href="#" class="footer-link">Privacy</a>
+        <a href="#" class="footer-link">Terms</a>
+        <a href="#" class="footer-link">Settings</a>
+      </nav>
+    </div>
+  </footer>
+
+</body>
+</html>
