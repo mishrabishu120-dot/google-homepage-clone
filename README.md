@@ -50,13 +50,7 @@ google-homepage-clone/
 
 ---
 
-## Screenshots
 
-| Desktop View | Mobile View |
-| :---: | :---: |
-| ![Desktop Screenshot](screenshots/desktop.png) | ![Mobile Screenshot](screenshots/mobile.png) |
-
----
 
 ## Future Improvements
 
